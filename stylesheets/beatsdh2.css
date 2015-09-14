@@ -1,0 +1,106 @@
+
+.move1{
+    animation:animations4 2s linear;animation-fill-mode: forwards;animation-play-state:paused; }
+@keyframes animations4{
+    0%{transform:translateX(0px);}
+    50%{transform: translateX(-431px);}
+    100%{transform: translateX(-862px);}
+}
+.box1_big:hover>.move1{animation-play-state:running;}
+
+.lineleft:before{
+    animation:animations5 1.6s linear 2s;animation-fill-mode: forwards; animation-play-state:paused;}
+@keyframes animations5{
+    0%{transform:translateY(0px);}
+    50%{transform: translateY(-27px);}
+    100%{transform: translateY(-54px);}
+}
+.box1_big:hover>.lineleft:before{animation-play-state:running;}
+
+.move2{
+    animation:animations6 1s linear 3.6s;animation-fill-mode: forwards;animation-play-state:paused; }
+@keyframes animations6{
+    0%{transform:translateX(0px);}
+    50%{transform: translateX(65px);}
+    100%{transform: translateX(138px);}
+}
+.box1_big:hover .move2{animation-play-state:running;}
+
+.move3{
+    animation:animations7 1s linear 4.8s;animation-fill-mode: forwards;animation-play-state:paused; }
+@keyframes animations7{
+    0%{transform:translateX(0px);}
+    50%{transform: translateX(-450px);}
+    100%{transform: translateX(-900px);}
+}
+.box1_big:hover>.move3{animation-play-state:running;}
+
+.move4{
+    animation:animations8 1s linear 5.6s;animation-fill-mode: forwards;animation-play-state:paused; }
+@keyframes animations8{
+    0%{transform:translateX(0px);}
+    50%{transform: translateX(-450px);}
+    100%{transform: translateX(-900px);}
+}
+.box1_big:hover>.move4{animation-play-state:running;}
+
+.move5{
+    animation:animations9 1s linear 6.4s;animation-fill-mode: forwards;animation-play-state:paused; }
+@keyframes animations9{
+    0%{transform:translateX(0px);}
+    50%{transform: translateX(-450px);}
+    100%{transform: translateX(-900px);}
+}
+.box1_big:hover>.move5{animation-play-state:running;}
+
+.move6{
+    animation:animations10 1s linear 7.0s;animation-fill-mode: forwards;animation-play-state:paused; }
+@keyframes animations10{
+    0%{transform:translateX(0px);}
+    50%{transform: translateX(-450px);}
+    100%{transform: translateX(-900px);}
+}
+.box1_big:hover>.move6{animation-play-state:running;}
+
+/* box2 */
+.move7{
+    animation:animations11 3s linear;animation-fill-mode: forwards;animation-play-state:paused; }
+@keyframes animations11{
+    0%{transform:translateX(0px);}
+    50%{transform: translateX(350px);}
+    80%{transform: translateX(690px);}
+    90%{transform: translateX(680px);}
+    100%{transform: translateX(700px);}
+}
+.box2_big:hover>.move7{animation-play-state:running;}
+
+.move8{
+    animation:animations12 2s linear 3s;animation-fill-mode: forwards;animation-play-state:paused; }
+@keyframes animations12{
+    0%{transform:translateX(0px);}
+    50%{transform: translateX(430px);}
+    80%{transform: translateX(800px);}
+    100%{transform: translateX(860px);}
+}
+.box2_big:hover>.move8{animation-play-state:running;}
+
+.move9{
+    animation:animations13 2s linear 5s;animation-fill-mode: forwards;animation-play-state:paused; }
+@keyframes animations13{
+    0%{transform:translateX(0px);}
+    50%{transform: translateX(300px);}
+    80%{transform: translateX(520px);}
+    100%{transform: translateX(600px);}
+}
+.box2_big:hover>.move9{animation-play-state:running;}
+
+.move10{
+    animation:animations14 2s linear 6s;animation-fill-mode: forwards;animation-play-state:paused; }
+@keyframes animations14{
+    0%{transform:translateX(0px);}
+    50%{transform: translateX(170px);}
+    80%{transform: translateX(330px);}
+    90%{transform: translateX(320px);}
+    100%{transform: translateX(340px);}
+}
+.box2_big:hover>.move10{animation-play-state:running;}
