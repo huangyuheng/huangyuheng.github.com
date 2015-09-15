@@ -10,7 +10,7 @@ body{font-family:"微软雅黑";}
 #heng1{background-color: #ffffff;width:30px;height: 4px;position: relative;top:-36px;}
 #heng2{background-color: #ffffff;width:30px;height: 4px;position: relative;top:-32px;}
 #main_h:hover{transition:transform 1s;transform:scale(1.05);}
-#main_all{width:100%;height:100%;background-color: #55F7D7;color: #ffffff;position: fixed;left:-100%;top:0px;z-index: 998;}
+#main_all{width:100%;height:100%;background-color: #55F7D7;color: #ffffff;position: fixed;left:-100%;top:0px;z-index: 997;}
 #main_all div{font-size: 70px;font-weight: 900;width: 600px;line-height: 80px;}
 #main_all div:hover{color: blue;}
 .ic:hover{color: blue;}
