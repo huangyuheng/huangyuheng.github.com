@@ -128,6 +128,13 @@
 
   <body>
   <!-- main -->
+  <div id="guide">
+      <div id="guide_font">This is my home page-Huangyuheng
+      <br/>分享交流 页面交互设计
+      </div>
+  </div>
+
+
   <div id="main">
 
       <div id="main_f">HUANG YU HENG</div>
@@ -221,10 +228,17 @@
     </div>
   <script type="text/javascript">
       var yes = true;
+      var guide =document.getElementById("guide");
       var h = document.getElementById("heng");
       var h1 = document.getElementById("heng1");
       var h2 = document.getElementById("heng2");//定义三条横线
       var main_all=document.getElementById("main_all");
+      window.onload=function(){
+          setTimeout(function(){guide.style.transformOrigin="0% 0%";
+              guide.style.transform="rotate(6deg)";
+              guide.style.transition="transform 2s";},2000)
+          setTimeout("guide.style.transform='translateY(1000px)';",3000);
+      }
       window.onscroll = function(){
           var t = document.documentElement.scrollTop || document.body.scrollTop;
           var f = document.getElementById("main_f");
