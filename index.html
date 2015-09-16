@@ -235,9 +235,10 @@
       var main_all=document.getElementById("main_all");
       window.onload=function(){
           setTimeout(function(){guide.style.transformOrigin="0% 0%";
-              guide.style.transform="rotate(6deg)";
+              guide.style.transform="rotate(8deg)";
               guide.style.transition="transform 2s";},2000)
           setTimeout("guide.style.transform='translateY(1000px)';",3000);
+          setTimeout("guide.style.display='none';",5000);
       }
       window.onscroll = function(){
           var t = document.documentElement.scrollTop || document.body.scrollTop;
